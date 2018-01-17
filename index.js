@@ -8,6 +8,9 @@ if (name === "Susan") {
     console.log("Expected the name to be Susan")
 }
 
+var index = require("./index.js")
+ 
+console.log(index.name)
 
 // Don't worry about this
 module.exports = { name, height
